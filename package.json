@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Justin Lowery",
   "license": "ISC",
-  "description": "",
+  "description": "Download files from a Google Drive folder and verify their integrity using SHA256 checksums. Supports parallel downloads and can be customized to suit different configurations, such as concurrency, wait time, and the download path.",
   "dependencies": {
     "@google-cloud/local-auth": "^3.0.1",
     "async-await-queue": "^2.1.4",

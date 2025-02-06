@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { hashFile } = require('./hash');  // External file hashing function
+const { hashFile } = require('./hash');
 
 let remainingDownloads = 0;
 let pendingDownloads = [];
